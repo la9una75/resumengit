@@ -31,6 +31,26 @@ git -v
 
 ## GestiÃ³n de logs
 
+Podemos ver el historial de commits del proyecto usando el comando log.
+Muestra el historial con el formato que indicamos:
+git log --pretty=format:"%h - %an, %ar : %s"
+
+Cambiamos la n por cualquier número entero:
+git log -n
+
+Muestra los commits realizados después de la fecha especificada:
+git log --after="2016-04-07 00:00:00"
+
+Muestra los commits realizados antes de la fecha especificada:
+git log --before="2016-04-08 00:00:00"
+
+Las banderas del comando git log se pueden usar juntas según nos convenga:
+git log --after="2016-04-07 12:00:00" --before="2016-04-07 12:30:00"
+
+Este comando nos muestra el historial en una sola línea por commit:
+git log --oneline
+
+
 ## Deshaciendo cambios
 Los cambios pueden deshacer en cualquier momento.
 
