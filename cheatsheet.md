@@ -8,7 +8,9 @@ git -v
 
 
 ## Configuración inicial
-
+git config --global user.name "tu nombre" / otorga un nombre a la persona que este trabajando con git 
+git config --global user.email "tu email" / otorga una direccion de correo a la persona que esta trabajando con git 
+git config --global http.proxy http://192.168.0.250:3128 / habilita el uso del servidor proxy 
 
 ## Comenzando a trabajar
  **colaboracion belve,ricardo,medina,gabo(arrestenlo)**
@@ -31,7 +33,10 @@ es para empezar a trabajar con git sino no te deja insertar comando
 ## Creando un repositorio local
 
 
-## Clonando un repositorio 
+
+### Clonando un repositorio
+
+## Clonando un reposito
 
  **Esto fue hecho por medina y gabo(llamen al 911 en el)**
 
@@ -94,4 +99,7 @@ git reset HEAD~1
 ```
 
 Así que podemos seguir trabajando, corregir el bug o completar las modificaciones que habíamos dejado incompletas y hacer un nuevo commit con los cambios completos.
+<<<<<<< HEAD
+=======
 >>>>>>> f20b62a5964b619a63e484cb669e6b434e9d14d8
+>>>>>>> 62eddef74fcc9ca6c5ffa44d16450760dee83d70
