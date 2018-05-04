@@ -11,7 +11,7 @@ git -v
 
 
 ## Comenzando a trabajar
- **colaboracion belve,ricardo,medina,gabo(arrestenlo)**
+ **colaboracion belve,ricardo,medina,alvarez**
 1) Para empezar se debe (primeramente realizar la configuracion inicial)
 2) se debe realizar una carpeta con el siguiente comando: 
 ```bash
@@ -31,11 +31,22 @@ es para empezar a trabajar con git sino no te deja insertar comando
 ## Creando un repositorio local
 
 
-## Clonando un repositorio 
-
- **Esto fue hecho por medina y gabo(llamen al 911 en el)**
-
-
+## Clonando un repositorio
+ **Esto fue hecho por medina y alvarez**
+ Para obtener una copia de un repositorio GIT existente se tiene que ingresar elsiguiente comando
+ ```bash
+ *git clone [url]*
+ ```
+ Para clonar un repositorio remoto existente [SSH]
+ ```bash
+ *git clone git+ssh://[nombre de usuario en el servidor remoto][dirreccion ip] [ruta exacta de donde esta ubicado]*
+ ```
+ Para clonar un repositorio remoto existente [HTTPS]
+ ```bash
+ *git clone [URL]*
+ ```
+ una vez clonado el repositorio **se pueden realizar las mismas acciones que si 
+hubiesemos iniciado nuestro propio repositorio local**
 ## Trabajando con repositorios remotos 
 
 
