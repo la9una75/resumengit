@@ -1,11 +1,13 @@
 # Consigna
-Realizar un resumen sobre el trabajo con git. Cada grupo debera contribuir con una secciÛn determinada. 
+Realizar un resumen sobre el trabajo con git. Cada grupo debera contribuir con una secci√≥n determinada. 
+Nota: el documento est√° escrito en [Markdown](https://guides.github.com/features/mastering-markdown/)
 
-¥¥¥bash
+```bash
 git -v 
-¥¥¥
+```
 
-## ConfiguraciÛn inicial
+
+## Configuraci√≥n inicial
 
 
 ## Comenzando a trabajar
@@ -27,7 +29,7 @@ git -v
 
 ## Etiquetas
 
-## GestiÛn de logs
+## Gesti√≥n de logs
 
 ## Deshaciendo cambios
 
