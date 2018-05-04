@@ -13,7 +13,7 @@ git config --global user.email "tu email" / otorga una direccion de correo a la 
 git config --global http.proxy http://192.168.0.250:3128 / habilita el uso del servidor proxy 
 
 ## Comenzando a trabajar
- **colaboracion belve,ricardo,medina,gabo(arrestenlo)**
+ **colaboracion belve,ricardo,medina,gabo**
 1) Para empezar se debe (primeramente realizar la configuracion inicial)
 2) se debe realizar una carpeta con el siguiente comando: 
 ```bash
@@ -34,11 +34,8 @@ es para empezar a trabajar con git sino no te deja insertar comando
 
 
 
-### Clonando un repositorio
-
 ## Clonando un reposito
 
- **Esto fue hecho por medina y gabo(llamen al 911 en el)**
 
 
 ## Trabajando con repositorios remotos 
@@ -48,10 +45,14 @@ es para empezar a trabajar con git sino no te deja insertar comando
 ## Diferencia entre fetch/merge y pull
 
 
+
 ## Etiquetas
+
+
 
 ## Gestión de logs
 
+<<<<<<< HEAD
 Podemos ver el historial de commits del proyecto usando el comando log.
 Muestra el historial con el formato que indicamos:
 git log --pretty=format:"%h - %an, %ar : %s"
@@ -77,6 +78,10 @@ git log --oneline
 ## Deshaciendo cambi
 =======
 >>>>>>> 62eddef74fcc9ca6c5ffa44d16450760dee83d70
+=======
+
+
+>>>>>>> 090f30c2f65176aa1e0229e23952268b0b921272
 ## Deshaciendo cambios
 **Los cambios pueden deshacer en cualquier momento.**
 Ten cuidado, a veces no es posible recuperar algo luego que lo has deshecho. Esta es una de las pocas áreas en las que Git puede perder parte de tu trabajo si cometes un error.
@@ -85,7 +90,7 @@ Ten cuidado, a veces no es posible recuperar algo luego que lo has deshecho. Est
 Para deshacer el ultimo commit usaremos:
 
 ```bash
-git reset --hard HEAD~1
+*git reset --hard HEAD~1*
 ```
 Donde "HEAD 1" indica la cantidad de commit a retoceder.
 La sintaxis "HEAD 1" del comando anterior la podríamos traducir como “El commit al que está apuntando la rama activa menos uno”.
@@ -95,11 +100,7 @@ Existe la posibilidad de eliminar el commit pero manteniendo las modificaciones 
 Para ello, ejecutaríamos el siguiente comando: 
 
 ```bash
-git reset HEAD~1 
+*git reset HEAD~1*
 ```
 
 Así que podemos seguir trabajando, corregir el bug o completar las modificaciones que habíamos dejado incompletas y hacer un nuevo commit con los cambios completos.
-<<<<<<< HEAD
-=======
->>>>>>> f20b62a5964b619a63e484cb669e6b434e9d14d8
->>>>>>> 62eddef74fcc9ca6c5ffa44d16450760dee83d70
