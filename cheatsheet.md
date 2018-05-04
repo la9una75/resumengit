@@ -40,8 +40,8 @@ Para deshacer el ultimo commit usaremos:
 ```bash
 "git reset --hard HEAD~1" 
 ```
-Donde "HEAD~1" indica la cantidad de commit a retoceder.
-La sintaxis HEAD~1 del comando anterior la podríamos traducir como “El commit al que está apuntando la rama activa menos uno”.
+Donde "HEAD 1" indica la cantidad de commit a retoceder.
+La sintaxis "HEAD 1" del comando anterior la podríamos traducir como “El commit al que está apuntando la rama activa menos uno”.
 
 Para deshacer el commit manteniendo las modificaciones:
 Existe la posibilidad de eliminar el commit pero manteniendo las modificaciones que contiene ese commit en el área de trabajo. 
