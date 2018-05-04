@@ -13,7 +13,22 @@ git config --global user.email "tu email" / otorga una direccion de correo a la 
 git config --global http.proxy http://192.168.0.250:3128 / habilita el uso del servidor proxy 
 
 ## Comenzando a trabajar
-
+ **colaboracion belve,ricardo,medina,gabo(arrestenlo)**
+1) Para empezar se debe (primeramente realizar la configuracion inicial)
+2) se debe realizar una carpeta con el siguiente comando: 
+```bash
+*mkdir [nombre de la carpeta]*
+```
+en la cual se guardan todos los documentos.
+3) Luego se ingresa en esa carpeta con el siguiente comando: 
+```bash
+*cd [nombre de la carpeta]*
+```
+4) Luego mientras estes en la carpeta se realiza el siguiente comando:
+```bash
+*git init*
+```
+es para empezar a trabajar con git sino no te deja insertar comando
 
 ## Creando un repositorio local
 
@@ -23,6 +38,7 @@ git config --global http.proxy http://192.168.0.250:3128 / habilita el uso del s
 
 ## Clonando un reposito
 
+ **Esto fue hecho por medina y gabo(llamen al 911 en el)**
 
 
 ## Trabajando con repositorios remotos 
@@ -36,6 +52,9 @@ git config --global http.proxy http://192.168.0.250:3128 / habilita el uso del s
 
 ## Gestión de logs
 
+<<<<<<< HEAD
+## Deshaciendo cambi
+=======
 ## Deshaciendo cambios
 **Los cambios pueden deshacer en cualquier momento.**
 Ten cuidado, a veces no es posible recuperar algo luego que lo has deshecho. Esta es una de las pocas áreas en las que Git puede perder parte de tu trabajo si cometes un error.
@@ -58,3 +77,7 @@ git reset HEAD~1
 ```
 
 Así que podemos seguir trabajando, corregir el bug o completar las modificaciones que habíamos dejado incompletas y hacer un nuevo commit con los cambios completos.
+<<<<<<< HEAD
+=======
+>>>>>>> f20b62a5964b619a63e484cb669e6b434e9d14d8
+>>>>>>> 62eddef74fcc9ca6c5ffa44d16450760dee83d70
