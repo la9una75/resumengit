@@ -12,10 +12,15 @@ git -v
 
 ## Comenzando a trabajar
  **colaboracion belve,ricardo,medina,gabo(arrestenlo)**
-Para empezar se debe (primeramente realizar la configuracion inicial)
-se debe realizar una carpeta con el siguiente comando: *mkdir [nombre de la carpeta]* en la cual se guardan todos los documentos.
-Luego se ingresa en esa carpeta con el siguiente comando: *cd [nombre de la carpeta]*
-Luego mientras estes en la carpeta se realiza el siguiente comando: *git init*
+1) Para empezar se debe (primeramente realizar la configuracion inicial)
+2) se debe realizar una carpeta con el siguiente comando: 
+*mkdir [nombre de la carpeta]*
+en la cual se guardan todos los documentos.
+3) Luego se ingresa en esa carpeta con el siguiente comando: 
+*cd [nombre de la carpeta]*
+4) Luego mientras estes en la carpeta se realiza el siguiente comando: 
+*git init* 
+es para empezar a trabajar con git sino no te deja insertar comando
 
 ### Creando un repositorio local
 
@@ -36,8 +41,4 @@ Luego mientras estes en la carpeta se realiza el siguiente comando: *git init*
 
 ## Gestión de logs
 
-## Deshaciendo cambios
-
-
-
-
+## Deshaciendo cambi
