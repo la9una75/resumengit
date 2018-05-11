@@ -1,6 +1,6 @@
 # Consigna
-Realizar un resumen sobre el trabajo con git. Cada grupo debera contribuir con una secciÃ³n determinada. 
-Nota: el documento estÃ¡ escrito en [Markdown](https://guides.github.com/features/mastering-markdown/)
+Realizar un resumen sobre el trabajo con git. Cada grupo debera contribuir con una sección determinada. 
+Nota: el documento está escrito en [Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ```bash
 git -v 
@@ -12,23 +12,21 @@ git -v
 ```bash
 git config --global user.name "tu nombre"
 ```
-Otorga un nombre a la persona que este trabajando con git 
+Nombre de la persona que este trabajando con git 
 
 ```bash
 git config --global user.email "tu email"
 ```
-otorga una direccion de correo a la persona que esta trabajando con git 
+Dirección de correo de la persona que esta trabajando con git 
 
 ```bash
 git config --global http.proxy http://192.168.0.250:3128
 ```
-habilita el uso del servidor proxy 
+Habilita el uso del servidor proxy 
  
 ## Comenzando a trabajar
 
-**colaboracion belve,ricardo,medina,gabo**
-
-1) Para empezar se debe (primeramente realizar la configuracion inicial)
+1. Para empezar se debe realizar primeramente la [configuración inicial](## Configuración inicial)
 2) se debe realizar una carpeta con el siguiente comando: 
 ```bash
 *mkdir [nombre de la carpeta]*
