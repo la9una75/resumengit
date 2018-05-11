@@ -13,12 +13,9 @@ git config --global user.email "tu email" / otorga una direccion de correo a la 
 git config --global http.proxy http://192.168.0.250:3128 / habilita el uso del servidor proxy 
 
  
-=======
 ## Comenzando a trabajar
 
- **colaboracion belve,ricardo,medina,alvarez**
-=======
- **colaboracion belve,ricardo,medina,gabo**
+**colaboracion belve,ricardo,medina,gabo**
 
 1) Para empezar se debe (primeramente realizar la configuracion inicial)
 2) se debe realizar una carpeta con el siguiente comando: 
